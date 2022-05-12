@@ -14,7 +14,7 @@ def screenshotArray():
   
     for row in range(14):
         for col in range(18):
-            if pgui.pixelMatchesColor(s697+ (30 * col), s407+ (30 * row), (229, 194, 159), tolerance=3): #blank spaces
+            if pgui.pixelMatchesColor((697+ (30 * col), s407+ (30 * row), (229, 194, 159), tolerance=3): #blank spaces
                 arr[row][col] = 9
             if pgui.pixelMatchesColor(s697+ (30 * col), s407+ (30 * row), (215, 184, 153), tolerance=3): #blank spaces
                 arr[row][col] = 9
